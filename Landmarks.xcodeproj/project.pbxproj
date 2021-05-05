@@ -81,6 +81,18 @@
 			path = Landmarks;
 			sourceTree = "<group>";
 		};
+		FF422ADA2642FA9C0079E211 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				FF422AD82642F9260079E211 /* Badge.swift */,
+				FF422AD22642F27E0079E211 /* BadgeBackground.swift */,
+				FF422AD42642F6170079E211 /* BadgeSymbol.swift */,
+				FF422AD62642F89D0079E211 /* RotatedBadgeSymbol.swift */,
+				FF422AD02642F06B0079E211 /* HexagonParameters.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		FFF7B07C263EF6C90092FE38 = {
 			isa = PBXGroup;
 			children = (
@@ -140,12 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				FFF7B08A263EF6C90092FE38 /* ContentView.swift */,
-				FF422AD02642F06B0079E211 /* HexagonParameters.swift */,
-				FF422AD22642F27E0079E211 /* BadgeBackground.swift */,
-				FF422AD42642F6170079E211 /* BadgeSymbol.swift */,
-				FF422AD62642F89D0079E211 /* RotatedBadgeSymbol.swift */,
-				FF422AD82642F9260079E211 /* Badge.swift */,
 				FF422ACF2641AA9E0079E211 /* Landmarks */,
+				FF422ADA2642FA9C0079E211 /* Badges */,
 				FF422ACE2641AA8A0079E211 /* Helpers */,
 			);
 			path = Views;
