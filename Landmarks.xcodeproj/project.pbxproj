@@ -136,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				FFF7B088263EF6C90092FE38 /* LandmarksApp.swift */,
-				FF422ADD26443F930079E211 /* Hike.swift */,
 				FF422ADF264440570079E211 /* Hikes */,
 				FFF7B0A326403BB00092FE38 /* Views */,
 				FFF7B0A226403BAB0092FE38 /* Model */,
@@ -170,6 +169,7 @@
 			children = (
 				FFF7B09F26403AA20092FE38 /* ModelData.swift */,
 				FFF7B09D2640396E0092FE38 /* Landmark.swift */,
+				FF422ADD26443F930079E211 /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
