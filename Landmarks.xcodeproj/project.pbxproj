@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2977F2532645879B0028120C /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977F2522645879B0028120C /* CategoryHome.swift */; };
 		FF422ACD2641A9CF0079E211 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */; };
 		FF422AD12642F06B0079E211 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD02642F06B0079E211 /* HexagonParameters.swift */; };
 		FF422AD32642F27E0079E211 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD22642F27E0079E211 /* BadgeBackground.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2977F2522645879B0028120C /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryHome.swift; path = ../../../../../../CategoryHome.swift; sourceTree = "<group>"; };
 		FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		FF422AD02642F06B0079E211 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		FF422AD22642F27E0079E211 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2977F2512645878A0028120C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2977F2522645879B0028120C /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		FF422ACE2641AA8A0079E211 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				FFF7B08A263EF6C90092FE38 /* ContentView.swift */,
+				2977F2512645878A0028120C /* Categories */,
 				FF422ACF2641AA9E0079E211 /* Landmarks */,
 				FF422ADA2642FA9C0079E211 /* Badges */,
 				FF422ACE2641AA8A0079E211 /* Helpers */,
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF7B08B263EF6C90092FE38 /* ContentView.swift in Sources */,
+				2977F2532645879B0028120C /* CategoryHome.swift in Sources */,
 				FF422AE5264440570079E211 /* HikeGraph.swift in Sources */,
 				FF422AD92642F9260079E211 /* Badge.swift in Sources */,
 				FFF7B09A263EF8AF0092FE38 /* MapView.swift in Sources */,
