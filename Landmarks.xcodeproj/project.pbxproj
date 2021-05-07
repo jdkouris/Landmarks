@@ -187,8 +187,8 @@
 		FFF7B0A326403BB00092FE38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FF422AE826458C0B0079E211 /* Categories */,
 				FFF7B08A263EF6C90092FE38 /* ContentView.swift */,
+				FF422AE826458C0B0079E211 /* Categories */,
 				FF422ACF2641AA9E0079E211 /* Landmarks */,
 				FF422ADA2642FA9C0079E211 /* Badges */,
 				FF422ACE2641AA8A0079E211 /* Helpers */,
