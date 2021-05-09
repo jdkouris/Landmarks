@@ -100,9 +100,10 @@
 		29605E03264821D000237180 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
-				29605E04264821F600237180 /* PageViewController.swift */,
 				29605E082648250100237180 /* PageView.swift */,
+				29605E04264821F600237180 /* PageViewController.swift */,
 				29605E0A26482A0F00237180 /* PageControl.swift */,
+				29605E062648238D00237180 /* FeatureCard.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -235,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				FFF7B08A263EF6C90092FE38 /* ContentView.swift */,
-				29605E062648238D00237180 /* FeatureCard.swift */,
 				29605E03264821D000237180 /* PageView */,
 				FF422AE826458C0B0079E211 /* Categories */,
 				FF422ACF2641AA9E0079E211 /* Landmarks */,
