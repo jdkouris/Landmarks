@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29605E05264821F600237180 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E04264821F600237180 /* PageViewController.swift */; };
 		FF422ACD2641A9CF0079E211 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */; };
 		FF422AD12642F06B0079E211 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD02642F06B0079E211 /* HexagonParameters.swift */; };
 		FF422AD32642F27E0079E211 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD22642F27E0079E211 /* BadgeBackground.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29605E04264821F600237180 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		FF422AD02642F06B0079E211 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		FF422AD22642F27E0079E211 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29605E03264821D000237180 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				29605E04264821F600237180 /* PageViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		FF422ACE2641AA8A0079E211 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				FFF7B08A263EF6C90092FE38 /* ContentView.swift */,
+				29605E03264821D000237180 /* PageView */,
 				FF422AE826458C0B0079E211 /* Categories */,
 				FF422ACF2641AA9E0079E211 /* Landmarks */,
 				FF422ADA2642FA9C0079E211 /* Badges */,
@@ -318,6 +329,7 @@
 				FFF7B0A726403D3A0092FE38 /* LandmarkList.swift in Sources */,
 				FF422AE7264440570079E211 /* HikeView.swift in Sources */,
 				FFF7B0A926403E5B0092FE38 /* LandmarkDetail.swift in Sources */,
+				29605E05264821F600237180 /* PageViewController.swift in Sources */,
 				FF422AD32642F27E0079E211 /* BadgeBackground.swift in Sources */,
 				FFCFF71E2647124300998CCD /* HikeBadge.swift in Sources */,
 				FFF7B098263EF8200092FE38 /* CircleImage.swift in Sources */,
