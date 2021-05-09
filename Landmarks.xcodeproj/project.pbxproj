@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		29605E05264821F600237180 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E04264821F600237180 /* PageViewController.swift */; };
 		29605E072648238D00237180 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E062648238D00237180 /* FeatureCard.swift */; };
+		29605E092648250100237180 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E082648250100237180 /* PageView.swift */; };
 		FF422ACD2641A9CF0079E211 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */; };
 		FF422AD12642F06B0079E211 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD02642F06B0079E211 /* HexagonParameters.swift */; };
 		FF422AD32642F27E0079E211 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD22642F27E0079E211 /* BadgeBackground.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		29605E04264821F600237180 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		29605E062648238D00237180 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		29605E082648250100237180 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		FF422AD02642F06B0079E211 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		FF422AD22642F27E0079E211 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				29605E04264821F600237180 /* PageViewController.swift */,
+				29605E082648250100237180 /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				FFCFF71A2647110700998CCD /* ProfileHost.swift in Sources */,
 				FF422ADE26443F930079E211 /* Hike.swift in Sources */,
 				FF422AD72642F89D0079E211 /* RotatedBadgeSymbol.swift in Sources */,
+				29605E092648250100237180 /* PageView.swift in Sources */,
 				FF422AD52642F6170079E211 /* BadgeSymbol.swift in Sources */,
 				FFCFF7202647168800998CCD /* ProfileEditor.swift in Sources */,
 				FFF7B0A726403D3A0092FE38 /* LandmarkList.swift in Sources */,
