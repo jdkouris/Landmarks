@@ -32,6 +32,7 @@
 		29605E412649742200237180 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF7B09D2640396E0092FE38 /* Landmark.swift */; };
 		29605E422649742200237180 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFF7162647104000998CCD /* Profile.swift */; };
 		29605E432649742200237180 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = FFF7B09B2640391B0092FE38 /* landmarkData.json */; };
+		29605E45264975BA00237180 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E44264975BA00237180 /* LandmarkDetail.swift */; };
 		FF422ACD2641A9CF0079E211 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */; };
 		FF422AD12642F06B0079E211 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD02642F06B0079E211 /* HexagonParameters.swift */; };
 		FF422AD32642F27E0079E211 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD22642F27E0079E211 /* BadgeBackground.swift */; };
@@ -125,6 +126,7 @@
 		29605E292649731F00237180 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29605E2B2649731F00237180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29605E2C2649731F00237180 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		29605E44264975BA00237180 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		FF422AD02642F06B0079E211 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		FF422AD22642F27E0079E211 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				29605E1E2649731F00237180 /* ContentView.swift */,
+				29605E44264975BA00237180 /* LandmarkDetail.swift */,
 				29605E202649731F00237180 /* NotificationController.swift */,
 				29605E222649731F00237180 /* NotificationView.swift */,
 				29605E242649731F00237180 /* ComplicationController.swift */,
@@ -504,6 +507,7 @@
 				29605E422649742200237180 /* Profile.swift in Sources */,
 				29605E252649731F00237180 /* ComplicationController.swift in Sources */,
 				29605E402649742200237180 /* Hike.swift in Sources */,
+				29605E45264975BA00237180 /* LandmarkDetail.swift in Sources */,
 				29605E3D2649742200237180 /* LandmarksApp.swift in Sources */,
 				29605E3B2649742200237180 /* CircleImage.swift in Sources */,
 				29605E232649731F00237180 /* NotificationView.swift in Sources */,
