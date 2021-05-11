@@ -52,6 +52,7 @@
 		29605E6C264AC7AB00237180 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E6B264AC7AB00237180 /* LandmarkList.swift */; };
 		29605E6E264ACB1100237180 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E6D264ACB1100237180 /* LandmarkCommands.swift */; };
 		29605E6F264ACB1100237180 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E6D264ACB1100237180 /* LandmarkCommands.swift */; };
+		29605E71264ACF1300237180 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29605E70264ACF1300237180 /* LandmarkSettings.swift */; };
 		FF422ACD2641A9CF0079E211 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */; };
 		FF422AD12642F06B0079E211 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD02642F06B0079E211 /* HexagonParameters.swift */; };
 		FF422AD32642F27E0079E211 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF422AD22642F27E0079E211 /* BadgeBackground.swift */; };
@@ -155,6 +156,7 @@
 		29605E69264AC40900237180 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		29605E6B264AC7AB00237180 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		29605E6D264ACB1100237180 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		29605E70264ACF1300237180 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		FF422ACC2641A9CF0079E211 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		FF422AD02642F06B0079E211 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		FF422AD22642F27E0079E211 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				29605E50264AC27900237180 /* ContentView.swift */,
 				29605E69264AC40900237180 /* LandmarkDetail.swift */,
 				29605E6D264ACB1100237180 /* LandmarkCommands.swift */,
+				29605E70264ACF1300237180 /* LandmarkSettings.swift */,
 				29605E52264AC27B00237180 /* Assets.xcassets */,
 				29605E57264AC27B00237180 /* Info.plist */,
 				29605E58264AC27B00237180 /* MacLandmarks.entitlements */,
@@ -617,6 +620,7 @@
 			files = (
 				29605E5D264AC35A00237180 /* Hike.swift in Sources */,
 				29605E60264AC35A00237180 /* Profile.swift in Sources */,
+				29605E71264ACF1300237180 /* LandmarkSettings.swift in Sources */,
 				29605E51264AC27900237180 /* ContentView.swift in Sources */,
 				29605E62264AC35A00237180 /* Landmark.swift in Sources */,
 				29605E6F264ACB1100237180 /* LandmarkCommands.swift in Sources */,
