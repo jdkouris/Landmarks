@@ -41,8 +41,6 @@ struct LandmarkList_Previews: PreviewProvider {
         ForEach(["iPhone 12"], id: \.self) { deviceName in
             LandmarkList()
                 .environmentObject(ModelData())
-                .previewDevice(PreviewDevice(rawValue: deviceName))
-                .previewDisplayName(deviceName)
         }
     }
 }
